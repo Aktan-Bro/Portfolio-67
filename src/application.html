@@ -1,44 +1,75 @@
-<h1>Trail Club</h1>
-<p>Student Hiking Club · Chamonix example</p>
-<div class="nav-links">
-    <a href="file:///C:/Users/user/Desktop/Aktan%20Bro/index.html#Home">Home</a> | <a href="file:///C:/Users/user/Desktop/Aktan%20Bro/trail.html">Routes</a> | <a href="#Apply">Apply for a trip</a>
-  <hr>  
-</div>
-<section id="Apply">
-<div class="breadcrumb">
-    <a href="#">Home</a> → <a href="#">Routes</a> → Application
-</div>
-</section>
-<h2>Trip Application</h2>
-<div class="description">This is a practice form. It does not send or store information.</div>
-<form>
-    <div class="section-title">1. Participant</div>
-    <div class="form-group">
-        <label for="fullname">Full name *</label>
-        <input type="text" id="fullname" name="fullname" required>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trail Club - Trip Application</title>
+</head>
+<body>
+<header>
+    <h1>Trail Club</h1>
+    <p>Student Hiking Club · Chamonix example</p>
+    <div class="nav-links">
+        <a href="file:///C:/Users/user/Desktop/Aktan%20Bro/index.html#Home">Home</a> |
+        <a href="file:///C:/Users/user/Desktop/Aktan%20Bro/trail.html">Routes</a> |
+        <a href="#Apply">Apply for a trip</a>
+        <hr>
     </div>
-    <div class="form-group">
-        <label for="email">Email *</label>
-        <input type="email" id="email" name="email" required>
+</header>
+<main>
+    <section id="Apply">
+        <div class="breadcrumb">
+            <a href="#">Home</a> →
+            <a href="#">Routes</a> →
+            Application
+        </div>
+    </section>
+    <h2>Trip Application</h2>
+    <div class="description">
+        This is a practice form. It does not send or store information.
     </div>
-    <div class="form-group">
-        <label for="group">Student group</label>
-        <input type="text" id="group" name="group">
-    </div>
-    <div class="section-title">2. Trip choice</div>
-    <div class="form-group">
-        <label for="route">Route *</label>
-        <select id="route" name="route" required>
-            <option value="" disabled selected>Choose a route</option>
-        </select>
-    </div>
-    <div class="form-group">
-        <label for="date">Preferred date *</label>
-        <input type="date" id="date" name="date" required>
-    </div>
-    <div class="form-group">
-        <label for="participants">Number of participants (1-4)</label>
-        <input type="number" id="participants" name="participants" value="1" min="1" max="4">
-    </div>
-    <div class="section-title">3. Experience</div>
-</form>
+    <form>
+        <div class="section-title">1. Participant</div>
+        <div class="form-group">
+            <label for="fullname">Full name *</label>
+            <input type="text" id="fullname" name="fullname" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="group">Student group</label>
+            <input type="text" id="group" name="group">
+        </div>
+        <div class="section-title">2. Trip choice</div>
+        <div class="form-group">
+            <label for="route">Route *</label>
+            <select id="route" name="route" required>
+                <option value="" disabled selected>Choose a route</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="date">Preferred date *</label>
+            <input type="date" id="date" name="date" required>
+        </div>
+        <div class="form-group">
+            <label for="participants">Number of participants (1-4)</label>
+            <input
+                type="number"
+                id="participants"
+                name="participants"
+                value="1"
+                min="1"
+                max="4"
+          >
+        </div>
+        <div class="section-title">3. Experience</div>
+    </form>
+</main>
+<footer>
+    <hr>
+    <p>&copy; 2026 Trail Club · Student Hiking Club</p>
+</footer>
+</body>
+</html>
